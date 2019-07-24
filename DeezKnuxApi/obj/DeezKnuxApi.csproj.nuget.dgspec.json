@@ -1,0 +1,90 @@
+{
+  "format": 1,
+  "restore": {
+    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj": {}
+  },
+  "projects": {
+    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj",
+        "projectName": "DeezKnuxApi",
+        "projectPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj",
+        "packagesPath": "/Users/camhelkuik/.nuget/packages/",
+        "outputPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
+        ],
+        "configFilePaths": [
+          "/Users/camhelkuik/.nuget/NuGet/NuGet.Config"
+        ],
+        "originalTargetFrameworks": [
+          "netcoreapp2.1"
+        ],
+        "sources": {
+          "https://api.nuget.org/v3/index.json": {}
+        },
+        "frameworks": {
+          "netcoreapp2.1": {
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "netcoreapp2.1": {
+          "dependencies": {
+            "JsonApiDotNetCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.App": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.Mvc": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.AspNetCore.Razor.Design": {
+              "suppressParent": "All",
+              "target": "Package",
+              "version": "[2.1.2, )"
+            },
+            "Microsoft.EntityFrameworkCore.Design": {
+              "target": "Package",
+              "version": "[2.1.4, )"
+            },
+            "Microsoft.Extensions.Logging.Debug": {
+              "target": "Package",
+              "version": "[2.1.1, )"
+            },
+            "Microsoft.NETCore.App": {
+              "target": "Package",
+              "version": "[2.1.0, )",
+              "autoReferenced": true
+            },
+            "Npgsql.EntityFrameworkCore.PostgreSQL": {
+              "target": "Package",
+              "version": "[2.1.2, )"
+            }
+          },
+          "imports": [
+            "net461"
+          ],
+          "assetTargetFallback": true,
+          "warn": true
+        }
+      }
+    }
+  }
+}

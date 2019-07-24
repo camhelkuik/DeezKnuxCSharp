@@ -1,0 +1,14 @@
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/bin/Debug/netcoreapp2.1/DeezKnuxApi.deps.json
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/bin/Debug/netcoreapp2.1/DeezKnuxApi.runtimeconfig.json
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/bin/Debug/netcoreapp2.1/DeezKnuxApi.runtimeconfig.dev.json
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/bin/Debug/netcoreapp2.1/DeezKnuxApi.dll
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/bin/Debug/netcoreapp2.1/DeezKnuxApi.pdb
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.csprojAssemblyReference.cache
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.csproj.CoreCompileInputs.cache
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.RazorAssemblyInfo.cache
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.RazorAssemblyInfo.cs
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.AssemblyInfoInputs.cache
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.AssemblyInfo.cs
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.RazorTargetAssemblyInfo.cache
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.dll
+/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/Debug/netcoreapp2.1/DeezKnuxApi.pdb
