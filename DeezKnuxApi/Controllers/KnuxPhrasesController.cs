@@ -8,9 +8,9 @@ using Microsoft.AspNetCore.Mvc;
 namespace DeezKnuxApi.Controllers
 {
    // [Route("api/v1/[controller]")]
-    public class KnuxPhraseController : JsonApiController<KnuxPhrase>
+    public class KnuxPhrasesController : JsonApiController<KnuxPhrase>
     {
-        public KnuxPhraseController(
+        public KnuxPhrasesController(
             IJsonApiContext jsonApiContext,
             IResourceService<KnuxPhrase> resourceService, 
             ILoggerFactory loggerFactory)

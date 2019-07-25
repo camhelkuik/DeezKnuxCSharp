@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj": {}
+    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi.csproj": {}
   },
   "projects": {
-    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj": {
+    "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj",
+        "projectUniqueName": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi.csproj",
         "projectName": "DeezKnuxApi",
-        "projectPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/DeezKnuxApi.csproj",
+        "projectPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi.csproj",
         "packagesPath": "/Users/camhelkuik/.nuget/packages/",
-        "outputPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/DeezKnuxApi/obj/",
+        "outputPath": "/Users/camhelkuik/non-icloud/Projects/DeezKnux/DeezKnuxApi/obj/",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "/usr/local/share/dotnet/sdk/NuGetFallbackFolder"
