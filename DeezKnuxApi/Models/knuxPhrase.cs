@@ -6,8 +6,8 @@ namespace DeezKnuxApi.Models
     {
         [Attr("knuxvalue")]
         public string KnuxValue { get; set; }
-        public int OwnerId { get; set; }
-        [HasOne("person")]
-        public virtual Person Owner { get; set; }        
+        public string OwnerId { get; set; }
+        [HasOne("owner")]
+        public virtual ApplicationUser Owner { get; set; }        
     }
 }

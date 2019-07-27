@@ -48,8 +48,10 @@
               "version": "[2.1.2, )"
             },
             "Microsoft.AspNetCore.App": {
+              "suppressParent": "All",
               "target": "Package",
-              "version": "[2.1.2, )"
+              "version": "[2.1.1, )",
+              "autoReferenced": true
             },
             "Microsoft.AspNetCore.Mvc": {
               "target": "Package",
@@ -69,6 +71,7 @@
               "version": "[2.1.1, )"
             },
             "Microsoft.NETCore.App": {
+              "suppressParent": "All",
               "target": "Package",
               "version": "[2.1.0, )",
               "autoReferenced": true
@@ -76,6 +79,14 @@
             "Npgsql.EntityFrameworkCore.PostgreSQL": {
               "target": "Package",
               "version": "[2.1.2, )"
+            },
+            "OpenIddict": {
+              "target": "Package",
+              "version": "[2.0.0-rc3-final, )"
+            },
+            "OpenIddict.EntityFrameworkCore": {
+              "target": "Package",
+              "version": "[2.0.0-rc3-final, )"
             }
           },
           "imports": [

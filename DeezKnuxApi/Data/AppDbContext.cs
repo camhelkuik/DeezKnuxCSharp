@@ -1,15 +1,15 @@
 using Microsoft.EntityFrameworkCore;
 using DeezKnuxApi.Models;
+using Microsoft.AspNetCore.Identity.EntityFrameworkCore;
 
 namespace DeezKnuxApi.Data 
 {
-    public class AppDbcontext : DbContext
+    public class AppDbcontext : IdentityDbContext<ApplicationUser>
     {
         public AppDbcontext(DbContextOptions<AppDbcontext> options)
         : base(options)
         { }
 
-        public DbSet<Person> People { get; set; }
         public DbSet<KnuxPhrase> KnuxPhrases { get; set; }
     }
 }
