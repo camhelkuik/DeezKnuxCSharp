@@ -87,7 +87,7 @@ namespace DeezKnuxApi
                 //options.ClaimsIdentity.RoleClaimType = OpenIdConnectConstants.Claims.Role;
             });
 
-            services.AddScoped<IHttpContextAccessor, IHttpContextAccessor>();
+            //services.AddScoped<IHttpContextAccessor, IHttpContextAccessor>();
             services.AddScoped<IAuthenticationService, AuthenticationService>();
             services.AddScoped<IEntityRepository<KnuxPhrase>, KnuxPhraseRepository>();
 

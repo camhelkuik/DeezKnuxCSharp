@@ -11,16 +11,17 @@ namespace DeezKnuxApi.Repositories
     public class KnuxPhraseRepository : DefaultEntityRepository<KnuxPhrase>
     {
         private readonly ILogger _logger;
-        private readonly AppDbcontext _context;
+         private readonly AppDbcontext _context;
         private readonly IAuthenticationService _authenticationService;
 
-        public KnuxPhraseRepository(AppDbcontext context,
+    public KnuxPhraseRepository(
+            AppDbcontext context,
             ILoggerFactory loggerFactory,
             IJsonApiContext jsonApiContext,
             IAuthenticationService authenticationService)
-        : base(context, loggerFactory, jsonApiContext)
+        : base(loggerFactory, jsonApiContext)
         {
-            _context = context;
+             _context = context;
             _logger = loggerFactory.CreateLogger<KnuxPhraseRepository>();
             _authenticationService = authenticationService;
         }
