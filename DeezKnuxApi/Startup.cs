@@ -127,7 +127,13 @@ namespace DeezKnuxApi
 
             if (env.IsDevelopment())
             {
-                app.UseCors(builder => builder.WithOrigins("http://localhost:4200"));
+                app.UseCors(builder => {
+                    builder.WithOrigins("http://localhost:4200")
+                    //only use the following for dev, do not use for production
+                    .AllowAnyHeader()
+                    .AllowAnyMethod()
+                    .AllowCredentials();
+                });
             }
 
             app.UseJsonApi();
