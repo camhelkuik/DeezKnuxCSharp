@@ -1,4 +1,8 @@
 <h1>Deez Knux should be showing below:</h1>
+{{#link-to "s.knux-phrases.add"}}Add{{/link-to}}
+<br />
 {{#each model as |knux|}}
     <li>{{knux.knuxvalue}}</li>
 {{/each}}
+
+{{outlet}}

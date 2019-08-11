@@ -9,7 +9,9 @@ const Router = EmberRouter.extend({
 Router.map(function() {
   this.route('login');
   this.route('s', function(){
-    this.route('knux-phrases');
+    this.route('knux-phrases', function() {
+      this.route('add');
+    });
   });
 });
 

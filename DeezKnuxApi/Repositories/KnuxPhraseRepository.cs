@@ -1,4 +1,5 @@
 using System.Linq;
+using System.Threading.Tasks;
 using DeezKnuxApi.Data;
 using DeezKnuxApi.Models;
 using DeezKnuxApi.Services;
@@ -29,6 +30,12 @@ namespace DeezKnuxApi.Repositories
         public override IQueryable<KnuxPhrase> Get()
         {
             return base.Get().Where(e => e.OwnerId == _authenticationService.GetUserId());
+        }
+
+        public override async Task<KnuxPhrase> CreateAsync(KnuxPhrase knuxPhrase)
+        {
+            knuxPhrase.OwnerId = _authenticationService.GetUserId();
+            return await base.CreateAsync(knuxPhrase);
         }
     }
 }
